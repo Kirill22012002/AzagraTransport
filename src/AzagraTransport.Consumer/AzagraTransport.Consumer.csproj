@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-AzagraTransport.Consumer-72a832cd-fc59-4508-a1bf-f8c515da2f34</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Confluent.Kafka" Version="9.4.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1" />
+  </ItemGroup>
+</Project>
